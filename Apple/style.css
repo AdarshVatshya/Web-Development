@@ -1,0 +1,169 @@
+@font-face {
+    font-family: sebji;
+    src: url(./sf-pro-text_regular.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+#nav{
+    height: 30px;
+    width: 100%;
+    background-color: rgb(239, 239, 239);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#nav a{
+    color: #343434;
+    font-weight: 100;
+    font-size: 11px;
+    font-family: sebji;
+    text-decoration: none;
+}
+
+#nav i{
+    color: #343434;
+}
+#precen{
+    height: 30px;
+    width: 100%;
+    background-color: white;
+    padding-top: 8px;
+    text-align: center;
+    
+}
+
+#precen p{
+    font-family: sebji;
+    font-weight: 200;
+    font-size: 11px;
+    
+}
+
+#precen a{
+    text-decoration: none;
+}
+
+#centre{
+    height: 80%;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    background-image: url(https://www.apple.com/v/home/cm/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_small.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#centre h1{
+    color: black;
+    font-weight: 500;
+    font-family: sebji;
+    font-size: 35px;
+}
+
+#centre h5{
+    color: black;
+    font-weight: 200;
+    font-family: sebji;
+    font-size: 18px;
+    padding: 5px;
+}
+
+#links{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#links button{
+    color: white;
+    background-color: royalblue;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-family: sebji;
+}
+
+#links #Buy{
+    background-color: transparent;
+    border: 1.5px solid royalblue;
+    color: royalblue;
+}
+
+#tab{
+    margin-top: 10px;
+    height: 80%;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    background-image: url(https://www.apple.com/v/home/cm/images/heroes/ipad-air-m4/hero_ipad_air_m4__ew8k92mk1w6e_mediumtall.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#tab h5{
+    padding: 5px;
+    color: black;
+    font-family: sebji;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+#tablinks{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#tablinks button{
+    background-color: royalblue;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-family: sebji;
+}
+
+#tablinks #Buy{
+    background-color: transparent;
+    border: 2px solid royalblue;
+    color: royalblue;
+}
+
+#last{
+    background-color: white;
+    height: 20px;
+    width: 100%;
+}
+
+#last p{
+    text-align: center;
+    font-family: sebji;
+    font-size: 11px;
+    font-weight: 300;
+    padding-top: 5px;
+}
